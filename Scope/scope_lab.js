@@ -17,6 +17,12 @@ console.log(globalConst); // Output: "I'm a global constant"
 //Block Scope
 // console.log(blockVar);
 // console.log(blockLet);
+globalVar = "nnn"
+globalLet = "new value"
+globalConst = "something different"
+blockVar = "nnn"
+blockLetLet = "new value"
+blockConst = "something different"
 function show(){
     var functionVar = "I'm a block-scoped var";
     let functionLet = "I'm a block-scoped let";
