@@ -40,3 +40,19 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+let person = "employee"
+let services;
+switch (person) {
+    case "employee":
+        services = "Dietary Services";
+        break;
+        case "Enrolled Member":
+            services = "Dietary Services and one-on-one interaction with a dietician.";
+            break;
+    case "subscriber":
+        services = "Dietary Services only";
+            break;
+    default:
+        services = "subscribe first to avail this facility";
+}
